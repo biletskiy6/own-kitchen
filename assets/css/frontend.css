@@ -1,0 +1,23 @@
+
+.divTable[data-v-620b0ca5]{
+  display: table;
+  width: 100%;
+}
+.divTableRow[data-v-620b0ca5] {
+  display: table-row;
+  border-top: 1px solid #999;
+}
+.divTableCell[data-v-620b0ca5], .divTableHead[data-v-620b0ca5] {
+  /*border: 1px solid #999999;*/
+  display: table-cell;
+  padding: 3px 10px;
+}
+.divTableFoot[data-v-620b0ca5] {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody[data-v-620b0ca5] {
+  display: table-row-group;
+}
+
