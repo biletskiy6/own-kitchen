@@ -1,0 +1,141 @@
+import { v4 } from "uuid";
+
+export default {
+  activeStep: 0,
+  steps: [
+    {
+      id: v4(),
+      name: "Unterschränke",
+      items: [
+        {
+          id: v4(),
+          name: "Base Cabinet",
+          image: "",
+          price: 20,
+          variations: [
+            {
+              id: v4(),
+              name: "J U45",
+              direction: "L",
+              ratio: 146,
+              quantity: 0,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U45",
+              direction: "R",
+              ratio: 146,
+              quantity: 1,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U60",
+              direction: "L",
+              ratio: 158,
+              quantity: 2,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U60",
+              direction: "R",
+              ratio: 158,
+              quantity: 3,
+              total: 0,
+            },
+          ],
+        },
+        {
+          id: v4(),
+          name: "Base Cabinet2",
+          image: "",
+          price: 10,
+          variations: [
+            {
+              id: v4(),
+              name: "J U15",
+              direction: "L",
+              ratio: 146,
+              quantity: 0,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U05",
+              direction: "R",
+              ratio: 500,
+              quantity: 1,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U40",
+              direction: "L",
+              ratio: 158,
+              quantity: 2,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U10",
+              direction: "R",
+              ratio: 158,
+              quantity: 3,
+              total: 0,
+            },
+          ],
+        },
+      ],
+      total: 0,
+    },
+    {
+      id: v4(),
+      name: "Step 2",
+      items: [
+        {
+          id: v4(),
+          name: "Base Cabinet",
+          image: "",
+          price: 20,
+          variations: [
+            {
+              id: v4(),
+              name: "J U45",
+              direction: "L",
+              ratio: 146,
+              quantity: 0,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U45",
+              direction: "R",
+              ratio: 146,
+              quantity: 1,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U60",
+              direction: "L",
+              ratio: 158,
+              quantity: 0,
+              total: 0,
+            },
+            {
+              id: v4(),
+              name: "J U60",
+              direction: "R",
+              ratio: 158,
+              quantity: 0,
+              total: 0,
+            },
+          ],
+        },
+      ],
+      total: 0,
+    },
+  ],
+};

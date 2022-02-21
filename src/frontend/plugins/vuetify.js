@@ -1,5 +1,5 @@
 // src/plugins/vuetify.js
-import Vue from 'vue'
+import Vue from "vue";
 import Vuetify, {
   VApp,
   VCard,
@@ -8,9 +8,10 @@ import Vuetify, {
   VBtn,
   VInput,
   VTextField,
-  VForm
-} from 'vuetify/lib'
-import {Ripple} from 'vuetify/lib/directives'
+  VForm,
+  VProgressLinear,
+} from "vuetify/lib";
+import { Ripple } from "vuetify/lib/directives";
 
 Vue.use(Vuetify, {
   components: {
@@ -21,13 +22,14 @@ Vue.use(Vuetify, {
     VBtn,
     VInput,
     VTextField,
-    VForm
+    VForm,
+    VProgressLinear,
   },
   directives: {
     Ripple,
   },
-})
+});
 
-const opts = {}
+const opts = {};
 
-export default new Vuetify(opts)
+export default new Vuetify(opts);

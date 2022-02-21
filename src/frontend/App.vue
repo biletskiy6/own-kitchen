@@ -1,9 +1,6 @@
 <template>
   <v-app id="vue-frontend-app">
-    <h2>Frontend App</h2>
-
     <app-form></app-form>
-
     <router-view />
   </v-app>
 </template>
